@@ -1560,8 +1560,8 @@ function seedProfileData(){
   s.asOfDate='2026-06-20'; s.horizonDays=60; s.miscAllowance=0; s.lowFloor=0;
   s.payoffStrategy='avalanche'; s.extraDebt=0;
   s.accounts=[
-    {id:chk,name:'Checking',type:'checking',balance:0,goal:0,apy:0,spend:true},
-    {id:sav,name:'Savings',type:'savings',balance:0,goal:0,apy:0,spend:false},
+    {id:chk,name:'Checking',type:'checking',balance:277.51,goal:0,apy:0,spend:true},
+    {id:sav,name:'Savings',type:'savings',balance:1689.07,goal:0,apy:0,spend:false},
   ];
   s.miscAcct=chk;
   // categories
@@ -1587,8 +1587,8 @@ function seedProfileData(){
     {id:uid(),name:'Veolia (water)',amount:45,day:26,freqMonths:1,acct:chk,weekendRule:false,cat:cU},
   ];
   s.credits=[
-    {id:uid(),name:'Citi',balance:13656,limit:16000,apr:0,minPayment:500,actualPayment:500,dueDay:23,acct:chk,cat:cD},
-    {id:uid(),name:'Wells Fargo',balance:7828,limit:0,apr:0,minPayment:157,actualPayment:157,dueDay:20,acct:chk,cat:cD},
+    {id:uid(),name:'Citi',balance:14233.68,limit:16000,apr:28.49,minPayment:502.07,actualPayment:502.07,dueDay:23,acct:chk,cat:cD},
+    {id:uid(),name:'Wells Fargo',balance:8122.85,limit:8500,apr:21.65,minPayment:213,actualPayment:213,dueDay:20,acct:chk,cat:cD},
     {id:uid(),name:'Chase Freedom',balance:5073.63,limit:7500,apr:22.49,minPayment:128,actualPayment:128,dueDay:13,acct:chk,cat:cD},
     {id:uid(),name:'Best Buy',balance:2782,limit:9250,apr:0,minPayment:54,actualPayment:54,dueDay:26,acct:chk,cat:cD},
     {id:uid(),name:'American Signature',balance:1219,limit:4580,apr:0,minPayment:70,actualPayment:70,dueDay:15,acct:chk,cat:cD},
